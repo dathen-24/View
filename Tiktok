@@ -7,9 +7,9 @@ try:
 except:
 	os.system("pip install requests")
 	os.system("pip install colorama")
-	os.system("pip install prettytable")
+
 import threading, requests, ctypes, random, json, time, base64, sys, re
-from prettytable import PrettyTable
+
 import random
 from time import strftime
 from colorama import init, Fore
